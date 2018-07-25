@@ -41,15 +41,21 @@
     </section>
 
     <section class='slide'>
-        <h1>Let's get to know each other!</h1>
-        <h2>What's your name?</h2>
-        <h2>Do you have a favorite website? What do you like about it?</h2>
-        <h2>What are excited to learn about today?</h2>
+        <h1>Let's get to know each other</h1>
+        <p>1. What's your name?</p>
+        <p>2. Do you have a favorite website? What do you like about it?</p>
+        <p>3. What are excited to learn about today?</p>
     </section>
 
     <section class='slide'>
-        <h2>Today we will be learning how to use HTML and CSS</br> to make our own portfolio site.</h2>
-        <a target='_blank' href="https://hannahhch.github.io/frontend-adventures-duke-tip/index">Example Website Here</a>
+        <img src="https://media.giphy.com/media/bYUbS6XYDi3Ze/giphy.gif"/>
+        <p>We will be learning how to use HTML and CSS</br> to make our own personal website.</p>
+        <p>We've made an example for you <a target='_blank' href="https://hannahhch.github.io/frontend-adventures-duke-tip/index">here</a>.</p>
+    </section>
+
+    <section class="slide">
+        <h1>What is a website anyway?</h1>
+        <p>(Maria's content here)</p>
     </section>
 
     <!-- add introductory slides -->
@@ -60,30 +66,37 @@
     </section>
 
     <section class='slide'>
-        <p>(content here)</p>
+        <p>(Maria's content here)</p>
     </section>
 
     <section class="slide">
-        <img src="images/css3logo.png" alt="CSS 3 Logo">
-    </section>
-
-    <section class="slide">
-      <p>We've learned that HTML takes care of the content of our website.</p>
-      <p>With CSS we can make that content look  good!</p>
+        <h2>Text Editors, Folder Structure and Browsers</h2>
+            <h2>Requirements for Programming Today</h2>
+        <img src="images/atom.png" alt="atom logo" style="width: 250px; margin-right: 50px"/>
+        <img src="images/folder.png" alt="folder"style="width: 250px; margin-right: 50px"/>
+        <img src="images/chome.png" alt="chrome logo"style="width: 250px"/>
     </section>
 
     <section class='slide'>
+        <p>(Maria's content here)</p>
+    </section>
+
+    <section class="slide">
+        <img src="images/css3logo.png" alt="CSS 3 Logo" style="max-width: 300px">
+    </section>
+
+    <section class="slide">
+    <h1>What Does CSS Do?</h1>
+      <p>We've learned that HTML takes care of the content of our website.</p>
+      <p>With CSS we can make that content look  good!</p>
         <p>With HTML alone, we can create websites that look like <a href="https://justinjackson.ca/words.html" target="_blank">this</a></p>
         <p>By adding CSS, we can create sites that look like <a href="http://www.csszengarden.com/215/" target="_blank">this</a></p>
     </section>
 
     <section class="slide">
       <h1>What does CSS stand for?</h1>
-      <h2>Cascading Style Sheets</h2>
-    </section>
-
-    <section class='slide'>
-        <p>CSS is a <strong>style sheet language</strong> that lets you style the elements on your page.</p>
+      <p><strong>Cascading Style Sheets</strong></p>
+        <p>CSS is a style sheet language that lets you style the elements on your page.</p>
 
         <p>CSS works with HTML, but is not HTML itself.</p>
     </section>
@@ -148,7 +161,7 @@ h2 {
     </section>
 
     <section class="slide">
-        <h2>First we need to go back to HTML</h2>
+        <h1>Back to HTML</h1>
         <p>Remember those HTML elements we learned about?</p>
         <p>We can use them to <strong>select</strong> an element to apply styles</p>
         <code>
@@ -165,7 +178,84 @@ h2 {
         </code>
     </section>
 
-    
+    <section class="slide" style="background-color: gray; color: white;">
+        <h2>Let's select the body element and makes some color changes</h2>
+        <code>
+            <pre>
+body {
+    background-color: gray;
+    color: white;
+}
+
+</pre>  
+        </code>
+
+        <p>See what else you can change with the color and background properties</p>
+        <p>Hint: instead of using named colors (like black and white), </br>try using a HEX value (example: #F08080)</p>
+        <p>Check out this <a href="https://htmlcolorcodes.com/color-names/" target="_blank">resource</a> for more colors!</p>
+        
+    </section>
+
+    <section class="slide" style="background-color:white; color:black">
+        <h2>Another common way to display color values is using rgb or rgba</h2>
+        <p style="color: rgba(255, 0, 0, 1)">rgba(255, 0, 0, 1) is the same as rgb(255, 0, 0)</p>
+        <p style="color: rgba(255, 0, 0, .9)">rgba(255, 0, 0, .9)</p>
+        <p style="color: rgba(255, 0, 0, .8)">rgba(255, 0, 0, .8)</p>
+        <p style="color: rgba(255, 0, 0, .7)">rgba(255, 0, 0, .7)</p>
+        <p style="color: rgba(255, 0, 0, .6)">rgba(255, 0, 0, .6)</p>
+        <p style="color: rgba(255, 0, 0, .5)">rgba(255, 0, 0, .5)</p>
+        <p style="color: rgba(255, 0, 0, .4)">rgba(255, 0, 0, .4)</p>
+        <p style="color: rgba(255, 0, 0, .3)">rgba(255, 0, 0, .3)</p>
+        <p style="color: rgba(255, 0, 0, .2)">rgba(255, 0, 0, .2)</p>
+        <p style="color: rgba(255, 0, 0, .1)">rgba(255, 0, 0, .1)</p>
+    </section>
+
+    <section class="slide">
+        <h1>Font Size & Weight</h1>
+        <p>We've learned how to change the colors of our fonts, </br>but there are many other properties we can change!</p>
+        <code><pre>
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 100;
+}
+</pre></code>
+        
+    </section>
+
+    <section class="slide">
+        <h1>Font Weight Chart</h1>
+        <img src="http://www.asmarterwaytolearn.com/pro-html-css/images/illus-expert-font-weight-control-2.png"/>
+        
+    </section>
+
+    <section class="slide">
+        <h1>"Web Safe" Font Families</h1>
+        <p>There are a handful of fonts that come with your browser. The full list is <a target="_blank"href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">here</a></p>
+    </section>
+
+    <section class="slide">
+        <h2>Let's practice selecting elements and changing the fonts on our website.</h2>
+    </section>
+
+    <section class="slide">
+        <h1>Google Fonts</h1>
+        <p>Google provides over 800 free fonts <a target="_blank"href="https://fonts.google.com/">here</a></p>
+        <p>We can include them in our projects similarly to how we linked to our CSS file</p>
+    </section>
+
+    <section class="slide">
+        <h1>Selecting your font</h1>
+        <img src="images/googlefont.png" style="max-width:800px;"/>
+    </section>
 
     
 
