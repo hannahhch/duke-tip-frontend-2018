@@ -9,6 +9,7 @@ body {
 h1 {
     text-transform: uppercase;
     font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -17,10 +18,21 @@ h2 {
 
 p {
     font-size: 35px;
+    text-align: left;
 }
 
 a {
     color: white;
+    font-size: 35px;
+}
+
+img {
+    max-width: 450px;
+}
+
+strong,
+a {
+    color: #fd79a8;
 }
 
 .slide {
