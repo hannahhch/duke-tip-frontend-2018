@@ -54,3 +54,11 @@ pre {
     font-size: 30px;
     padding: 20px;
 }
+
+
+.background-example {
+    background-image: url('images/fluffy-cat.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+}
