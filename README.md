@@ -1,9 +1,8 @@
-#Slide Content
+# Slide Content
 
 Adapted from Girl Develop It [Creative Commons Licensed Materials](https://www.girldevelopit.com/materials);
 
-
-#DeckJS
+# DeckJS
 
 ## License
 

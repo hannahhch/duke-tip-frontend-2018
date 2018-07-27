@@ -54,6 +54,8 @@ img {
     display: inline-block;
     margin: 0 auto;
     margin-right: 15px;
+    border: solid 3px #833471;
+    border-radius: 5%;
 }
 
 .name {
@@ -65,3 +67,4 @@ img {
 .centered {
     text-align: center;
 }
+
