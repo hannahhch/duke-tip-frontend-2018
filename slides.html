@@ -87,6 +87,7 @@
 
     <section class="slide">
     <h1>What Does CSS Do?</h1>
+        <img src="https://media.giphy.com/media/2SYc7mttUnWWaqvWz8/giphy.gif"/>
       <p>We've learned that HTML takes care of the content of our website.</p>
       <p>With CSS we can make that content look  good!</p>
         <p>With HTML alone, we can create websites that look like <a href="https://justinjackson.ca/words.html" target="_blank">this</a></p>
@@ -132,6 +133,7 @@ h2 {
     </section>
     
     <section class="slide">
+        <img src="https://media.giphy.com/media/f08cafueoCoRW/giphy.gif"/>
         <h2>Let's use our inspector tool to look at some CSS in the browser!</h2>
     </section>
 
@@ -158,6 +160,7 @@ h2 {
 
     <section class="slide">
         <h1>Let's start writing some CSS!</h1>
+        <img src="https://media.giphy.com/media/Vv5PbR40OECNG/giphy.gif"/>
     </section>
 
     <section class="slide">
@@ -171,9 +174,7 @@ h2 {
     &lt;h2>By Hannah Hudson&lt;/h2>
     &lt;p>Here is an example of a paragraph on my website. &lt;/br>
     It even has a &lt;a href="www.google.com">link&lt;/a>!&lt;/p>
-&lt;body>
-
-</pre>
+&lt;body></pre>
 
         </code>
     </section>
@@ -185,9 +186,7 @@ h2 {
 body {
     background-color: gray;
     color: white;
-}
-
-</pre>  
+}</pre>  
         </code>
 
         <p>See what else you can change with the color and background properties</p>
@@ -198,6 +197,7 @@ body {
 
     <section class="slide" style="background-color:white; color:black">
         <h2>Another common way to display color values is using rgb or rgba</h2>
+        <p>The <strong>alpha</strong> value controls opacity</p>
         <p style="color: rgba(255, 0, 0, 1)">rgba(255, 0, 0, 1) is the same as rgb(255, 0, 0)</p>
         <p style="color: rgba(255, 0, 0, .9)">rgba(255, 0, 0, .9)</p>
         <p style="color: rgba(255, 0, 0, .8)">rgba(255, 0, 0, .8)</p>
@@ -212,6 +212,7 @@ body {
 
     <section class="slide">
         <h1>Font Size & Weight</h1>
+        <img src="https://media.giphy.com/media/AwNGX4XvvODO8/giphy.gif"/>
         <p>We've learned how to change the colors of our fonts, </br>but there are many other properties we can change!</p>
         <code><pre>
 h1 {
@@ -238,6 +239,7 @@ p {
 
     <section class="slide">
         <h1>Text Align</h1>
+        <img src="https://media.giphy.com/media/CNs0gTbxrsYtq/giphy.gif"/>
         <p style="text-align: center;">By default, text is aligned left. </br>We can reset this to <strong>center</strong> or <strong>right</strong> if we want</p>
 <code>
 <pre>
@@ -268,11 +270,15 @@ li {
 
     <section class="slide">
         <h1>"Web Safe" Font Families</h1>
+        <img src="https://media.giphy.com/media/MwJeR4kjyHMwo/giphy.gif"/>
         <p>There are a handful of fonts that come with your browser. The full list is <a target="_blank"href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">here</a></p>
     </section>
 
     <section class="slide">
-        <h2>Let's practice selecting elements and changing the fonts on our website.</h2>
+        <h2>Let's practice changing the fonts on our website</h2>
+        <p>Use a font from the w3schools list</p>
+        <p>Try out the text decoration property</p>
+        <p>Use text align</p>
     </section>
 
     <section class="slide">
@@ -294,11 +300,10 @@ li {
 
     <section class="slide">
         <h2>Remember HTML classes?</h2>
+        <img src="https://media.giphy.com/media/Ybj3edqRh9TRC/giphy.gif"/>
 <code>
 <pre>
-&lt;h1 class="main-header">My Favorite Things&lt;/h1>
-
-</pre>
+&lt;h1 class="main-header">My Favorite Things&lt;/h1></pre>
 </code>
 <h2>We can use these to apply CSS styles</h2>
     </section>
@@ -311,16 +316,14 @@ li {
 .main-header {
     color: blue;
     font-size: 40px;
-}
-</pre>
+}</pre>
 </code>
 <p>This style will <strong>only</strong> apply to elements with the class name of "main-header"</p>
-<p>What will happen if two elements have the same class name?</p>
+<h2>What will happen if two elements have the same class name?</h2>
 </section>
 
     <section class="slide">
         <h2>Lets practice using class names to apply styles!</h2>
-
     </section>
 
     <section class='slide'>
@@ -340,8 +343,7 @@ li {
     #fav-things {
         color: blue;
         font-size: 40px;
-    }
-    </pre>
+    }</pre>
     </code>
     <p>This style will <strong>only</strong> apply to the single element with the id name of "fav-things"</p>
     <p>Remember, an ID can only be one element</p>
@@ -353,6 +355,7 @@ li {
 
     <section class="slide">
         <h2>The CSS Cascade</h2>
+        <img src="https://media.giphy.com/media/xoSaxIp8f9JPa/giphy.gif"/>
         <p>What do you think will happen here? Will the H1 elements be blue or green?</p>
 <code><pre>
 h1 {
@@ -373,7 +376,7 @@ h1 {
 
 <section class="slide">
     <h2>!important</h2>
-    <p>We can use the !important tag to make sure a style gets applied.</p>
+    <p>We can use the <strong>!important</strong> tag to make sure a style gets applied.</p>
 
     <code><pre>
 h1 {
@@ -382,8 +385,7 @@ h1 {
 
 h1 {
     color: green;
-}
-    </pre></code>
+}</pre></code>
 <p>In this situation, the cascade would be ignored, and the H1 would be blue</p>
 <p>Its not best practice to use important tags; they can make our code hard to understand.</p>
 </section>
