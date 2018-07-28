@@ -25,7 +25,7 @@
 
   <!-- Basic black and white print styles -->
   <link rel="stylesheet" media="print" href="core/print.css">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
   <!-- Required Modernizr file -->
   <script src="modernizr.custom.js"></script>
@@ -54,19 +54,67 @@
     </section>
 
     <section class="slide">
+        <img src="images/web.jpg" alt="spider web"/>
+        <h1>What is the Web?</h1>
+    </section>
+
+    <section class="slide">
+      <img src="images/internetvsweb.jpg" alt="difference between web and internet"/>
+      <p>The <strong>Web</strong> consists of all of the information we can view when we go on the <strong>Internet</strong>,
+        a network of billions of connected devices. So think of the web as a bunch of HTML pages and the internet as a bunch of hardware.</p>
+      <p>The Web was created by Tim Berners-Lee in 1990. He leveraged hypertext so that scientists could share information over the emerging Internet.</p>
+    </section>
+
+    <section class="slide">
         <h1>What is a website anyway?</h1>
         <p>(Maria's content here)</p>
     </section>
 
-    <!-- add introductory slides -->
-
-    <section class='slide'>
-        <img src="images/html5logo.png" alt="HTML 5 Logo">
-
+    <section class="slide">
+      <h1>Front End</h1>
+      <img src="images/frontend.png" alt="front end image"/>
     </section>
 
-    <section class='slide'>
-        <p>(Maria's content here)</p>
+    <section class="slide">
+      <h1>Back End</h1>
+      <img src="images/backend.jpeg" alt="back end image"/>
+    </section>
+
+    <section class="slide">
+      <h1>Front End vs Back End</h1>
+      <img src="images/frontendbackend.jpg" alt="amusing front end vs back end comparison"/>
+    </section>
+
+    <section class="slide">
+      <h1>Front End vs Back End</h1>
+      <img src="images/frontback.png" alt="front end vs back end iceberg comparison"/>
+    </section>
+
+    <section class="slide">
+      <h1>Server</h1>
+      <img src="images/servers.jpg" alt="servers"/>
+    </section>
+
+    <section class="slide">
+      <h1>Application</h1>
+      <img src="images/application.png" alt="web app"/>
+    </section>
+
+    <section class="slide">
+      <h1>Database</h1>
+      <img src="images/database.jpg" alt="database"/>
+    </section>
+
+    <section class="slide">
+      <img src="images/programming.jpeg" alt="code"/>
+      <h1>What is Programming?</h1>
+    </section>
+
+    <section class="slide">
+      <h1>Programming is...</h1>
+      <p>the process of creating software; it is giving a computer a set of instructions to follow.</p>
+      <p>Programming is a lot like following a recipe. It's important to execute commands in the right order,
+         just like in a recipe. However, a person following a recipe can tweak ingredients and instructions, whereas a computer follows instructions exactly.</p>
     </section>
 
     <section class="slide">
@@ -74,11 +122,196 @@
             <h2>Requirements for Programming Today</h2>
         <img src="images/atom.png" alt="atom logo" style="width: 250px; margin-right: 50px"/>
         <img src="images/folder.png" alt="folder"style="width: 250px; margin-right: 50px"/>
-        <img src="images/chome.png" alt="chrome logo"style="width: 250px"/>
+        <img src="images/chrome.png" alt="chrome logo"style="width: 250px"/>
     </section>
 
     <section class='slide'>
-        <p>(Maria's content here)</p>
+        <img src="images/html5logo.png" alt="HTML 5 Logo"/>
+
+    </section>
+
+    <section class="slide">
+      <h1>What is HTML?</h1>
+      <img src="images/framework.jpg" alt="house frame"/>
+      <p>HTML is Hyper Text Markup Language</p>
+      <p>It gives structure and meaning to a website</p>
+      <p>Elements are represented by tags</p>
+    </section>
+
+    <section class="slide">
+      <p>HTML (Hyper Text Markup Language) documents all have the same basic structure:</p>
+      <code><pre>
+        &lt;!DOCTYPE html>
+        &lt;html>
+          &lt;head>
+          &lt;/head>
+          &lt;body>
+          &lt;/body>
+        &lt;/html>
+      </pre></code>
+      <p>The <strong>head</strong> contains metadata, which isn't displayed on the page.
+         This includes the title of the page (defined within title tags),
+         which is displayed on the page's tab.</p>
+      <p>The <strong>body</strong> defines the contents of the HTML document,
+         including hyperlinks, headings, paragraphs, lists, and images.</p>
+    </section>
+
+    <section class='slide'>
+      <img src="images/htmlanatomy.jpg" alt="html element"/>
+      <p>HTML is comprised of sets of descriptive <strong>tags</strong> which define the content on the page.<p>
+      <p>An HTML <strong>element</strong> is a pair of tags contains an opening tag,
+         whose element name is between angle brackets, and a closing tag,
+         which is the same name between angle brackets with a slash after the opening bracket,
+         with content between the opening and closing tags.</p>
+      <p>Most elements contain opening and closing tags, but some contain only one tag.</p>
+    </section>
+
+    <section class="slide">
+      <h1>HTML Tags</h1>
+      <p>HTML tags help to define elements.</p>
+      <p>A set of HTML tags looks like this:</p>
+      <code><pre>
+        &lt;p>&lt;/p>
+      </pre></code>
+      <p>An HTML element looks like this:</p>
+      <code><pre>
+        &lt;p>This is a paragraph.&lt;/p>
+      </pre></code>
+    </section>
+
+    <section class="slide">
+      <h1>Heading Tags</h1>
+        <p><strong>Heading</strong> tags define section headings.</p>
+        <p><strong>h1</strong> is the highest, and largest, section level, and should only be used once on a page.</p>
+        <p><strong>h6</strong> is the lowest, and smallest, section level. Headings require an opening and closing tag.</p>
+        <p>A heading element would be defined like this in an html document:</p>
+          <pre><code>
+            &lt;h1>This is my first heading&lt;/h1>
+          </code></pre>
+        <p>And would render like this:</p>
+          <pre><code>
+            <h1>This is my first heading</h1>
+          </code></pre>
+        <p>Heading elements have predefined whitespace, font style and size, and paragraph breaks.</p>
+    </section>
+
+    <section class="slide">
+      <h1>Paragraph Tags</h1>
+        <p><strong>Paragraph</strong> tags define blocks of text and have space before and after them.</p>
+        <p>A paragraph element would be defined like this in an html document:</p>
+          <pre><code>
+            &lt;p>This is my first paragraph.&lt;/p>
+          </code></pre>
+        <p>And would render like this:</p>
+          <pre><code>
+            <p>This is my first paragraph.</p>
+          </code></pre>
+        </p>
+    </section>
+
+    <section class="slide">
+      <h1>Div Tags</h1>
+        <p><strong>Div</strong> tags define a section of an HTML document,
+          and are often used to add JavaScript or as containers for CSS styling.</p>
+        <p>A div element would be defined like this in an html document:</p>
+          <pre><code>
+            &lt;div>This is a div&lt;/div>
+          </code></pre>
+        <p>And would render like this:</p>
+          <pre><code>
+            This is a div
+          <code></pre>
+    </section>
+
+    <section class="slide">
+      <h1>Lists</h1>
+      <img src="images/list.png" alt="list"/>
+      <p>To make a list in html, you'll need to use two different sets of tags.
+        Which tags you use will depend on what type of list you'd like to create.</p>
+    </section>
+
+    <section class="slide">
+      <h1>Ordered Lists</h1>
+      <p>To create an <strong>ordered</strong> (or numbered) list, you'll use ol tags
+        (ol stands for ordered list) with li tags nested inside.</p>
+      <p>An ordered, or numbered, list would be defined in an html document like this:</p>
+        <pre><code>
+          &lt;ol>
+            &lt;li>First element&lt;/li>
+            &lt;li>Second element&lt;/li>
+            &lt;li>Third element&lt;/li>
+          &lt;/ol>
+        </code></pre>
+      <p>And would render like this:</p>
+      <pre><code>
+        <ol>
+          <li>First element</li>
+          <li>Second element</li>
+          <li>Third element</li>
+        </ol>
+      </code></pre>
+    </section>
+
+    <section class="slide">
+      <h1>Unordered Lists</h1>
+        <p>To create an <strong>unordered</strong> (or bulleted) list, you'll use ul tags
+           (ul stands for unordered list) with li tags nested inside.</p>
+        <p>An unordered, or bulleted, list would be defined in an html document like this:</p>
+          <pre><code>
+            &lt;ul>
+              &lt;li>First element&lt;/li>
+              &lt;li>Second element&lt;/li>
+              &lt;li>Third element&lt;/li>
+            &lt;/ul>
+          </code></pre>
+        <p>And would render like this:</p>
+        <pre><code>
+          <ul>
+            <li>First element</li>
+            <li>Second element</li>
+            <li>Third element</li>
+          </ul>
+        </code></pre>
+    </section>
+
+    <section class="slide">
+      <img src="images/tag.png" alt="tag"/>
+      <p>The HTML tags we've already seen (h1-h6, p, div, ol,ul, and li) all have opening and closing tags.
+        Some HTML elements, however, have a less straightforward syntax.<p>
+    </section>
+
+    <section class="slide">
+      <img src="images/anchor.jpg" alt="anchor"/>
+      <h1>Anchor Elements</h1>
+        <p>The <strong>anchor</strong> tag allows you to create links on your page.
+          In this element, you'll include an <strong>attribute</strong> telling the browser where to link to.
+          The attribute is included in the opening tag and includes a <strong>name</strong> and a <strong>value</strong>.</p>
+        <p>In an anchor element, the href attribute is used to define the destination of the link.
+          The <strong>name</strong> of the attribute is href, and the <strong>value</strong> is the link.
+          Clickable text will be contained between the opening and closing tags of the element.</p>
+        <p>An anchor element is defined like this in an html document:</p>
+          <pre><code>
+            &lt;a href="http://www.google.com">Google&lt;/a>
+          </code></pre>
+        <p>And would render like this:</p>
+          <pre><code>
+            <a href="http://www.google.com">Google</a>
+          </code></pre>
+    </section>
+
+    <section class="slide">
+      <h1>Image Elements</h1>
+      <p><strong>Image</strong> tags, which allow you to insert images into your html document,
+        are not containers for content, and image elements have only one tag.</p>
+      <p>Image elements contain several attributes, which allow for configuration.
+        The <strong>src</strong> attribute tells the browser where to find the image that should be displayed.
+        The <strong>alt</strong> attribute specifies alternate text that describes the image.</p>
+      <p>An image element is defined like this in an html document:</p>
+        <pre><code>
+          &lt;img src="http://placecorgi.com/180" alt="a corgi" />
+        </code></pre>
+      <p>And would render like this:</p>
+        <img src="http://placecorgi.com/180" alt="a corgi" />
     </section>
 
     <section class="slide">
@@ -89,7 +322,7 @@
     <h1>What Does CSS Do?</h1>
         <img src="https://media.giphy.com/media/uELtzAhhqpRKg/giphy.gif"/>
       <p>We've learned that HTML takes care of the content of our website.</p>
-      <p>With CSS we can make that content look  good!</p>
+      <p>With CSS we can make that content look good!</p>
         <p>With HTML alone, we can create websites that look like <a href="https://justinjackson.ca/words.html" target="_blank">this</a></p>
         <p>By adding CSS, we can create sites that look like <a href="http://www.csszengarden.com/215/" target="_blank">this</a></p>
     </section>
@@ -120,7 +353,7 @@ h1 {
 h2 {
     font-size: 40px;
 }
-    </pre></code> 
+    </pre></code>
     </section>
 
     <section class="slide">
@@ -128,7 +361,7 @@ h2 {
         <img src="images/cssrule.png"/>
         <p>A block of CSS code is a rule. The rule starts with a selector. </br>It has sets of properties and values.</p>
     </section>
-    
+
     <section class="slide">
         <img src="https://media.giphy.com/media/f08cafueoCoRW/giphy.gif"/>
         <h2>Let's use our inspector tool to look at some CSS in the browser!</h2>
@@ -183,13 +416,13 @@ h2 {
 body {
     background-color: gray;
     color: white;
-}</pre>  
+}</pre>
         </code>
 
         <p>See what else you can change with the color and background properties</p>
         <p>Hint: instead of using named colors (like black and white), </br>try using a HEX value (example: #F08080)</p>
         <p>Check out this <a href="https://htmlcolorcodes.com/color-names/" target="_blank">resource</a> for more colors!</p>
-        
+
     </section>
 
     <section class="slide" style="background-color:white; color:black">
@@ -226,12 +459,12 @@ p {
     font-weight: 100;
 }
 </pre></code>
-        
+
     </section>
 
     <section class="slide">
         <h1>Font Weight Chart</h1>
-        <img src="http://www.asmarterwaytolearn.com/pro-html-css/images/illus-expert-font-weight-control-2.png"/>    
+        <img src="http://www.asmarterwaytolearn.com/pro-html-css/images/illus-expert-font-weight-control-2.png"/>
     </section>
 
     <section class="slide">
@@ -244,7 +477,7 @@ p {
     text-align: center;
 }</pre>
 </code>
-        
+
     </section>
 
     <section class="slide">
@@ -364,7 +597,7 @@ h1 {
 }
 </pre></code>
     </section>
-    
+
 <section class="slide">
     <h2>ANSWER: green</h2>
     <p>Since CSS is "cascading", it starts at the top of the stylesheet and moves down.</p>
@@ -400,7 +633,7 @@ h1 {
 <section class="slide">
     <h1>Background Properties</h1>
     <div class="background-example">
-        
+
     </div>
 <code>
 <pre>
@@ -429,7 +662,7 @@ section {
 </section>
 
 <section class="slide">
-    <h2>Practice using the background image property on your site</h2>   
+    <h2>Practice using the background image property on your site</h2>
     <p>Look up background-position and background-repeat</p>
         <p>See if you can make your own gradient!</p>
 </section>
@@ -486,7 +719,7 @@ nav a {
     <pre>
 .outlined {
     border-left: purple 3px solid;
-    border-right: yellow 3px solid; 
+    border-right: yellow 3px solid;
  }</pre>
     </code>
 </section>
@@ -498,9 +731,9 @@ nav a {
     <code>
     <pre>
 div {
-    height: 200px; 
-    width: 200px; 
-    border: solid 5px orange; 
+    height: 200px;
+    width: 200px;
+    border: solid 5px orange;
     border-radius: 10%
 }</pre>
 
@@ -509,9 +742,9 @@ div {
     <code>
     <pre>
 div {
-    height: 200px; 
-    width: 200px; 
-    border: solid 5px orange; 
+    height: 200px;
+    width: 200px;
+    border: solid 5px orange;
     border-radius: 50%
 }</pre>
 
@@ -585,6 +818,13 @@ h2 {
 
 <section class="slide">
     <img src="images/js.jpeg"/>
+</section>
+
+<section class="slide">
+    <h1>What does JavaScript do?</h1>
+    <img src="images/interactive.jpg" alt="interact" /><br /><br />
+    <a href="http://www.cnn.com/EVENTS/1996/year.in.review/">CNN 1996</a><br />
+    <a href="https://www.cnn.com/">CNN Today</a>
 </section>
 
     <section class="slide">
