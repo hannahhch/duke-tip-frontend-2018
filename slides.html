@@ -134,7 +134,7 @@
     </section>
 
     <section class="slide">
-      <p>HTML (Hyper Text Markup Language) documents all have the same basic structure:</p>
+      <h2>HTML (Hyper Text Markup Language) documents all have the same basic structure:</h2>
       <code><pre>
 &lt;!DOCTYPE html>
   &lt;html>
@@ -187,9 +187,7 @@
 &lt;h1>This is my first heading&lt;/h1></pre>
 </code>
         <p>And would render like this:</p>
-          <pre><code>
-            <h1>This is my first heading</h1>
-          </code></pre>
+        <h1>This is my first heading</h1>
     </section>
 
     <section class="slide">
@@ -198,44 +196,49 @@
     </section>
     <section class="slide">
         <p>A paragraph element would be defined like this in an html document:</p>
-          <pre><code>
+          <code><pre>
 &lt;p>This is my first paragraph.&lt;/p>
-          </code></pre>
+          </pre></code>
         <p>And would render like this:</p>
-          <pre><code>
-            <p>This is my first paragraph.</p>
-          </code></pre>
+
+        <p>This is my first paragraph.</p>
+
         </p>
     </section>
 
     <section class="slide">
-      <h1>Div Tags</h1>
+        <h1>Div Tags</h1>
         <p><strong>Div</strong> tags define a section of an HTML document,
-          and are often used to add JavaScript or as containers for CSS styling.</p></section>
-        <section class="slide">
+            and are often used to add JavaScript or as containers for CSS styling.</p>
+    </section>
+        
+    <section class="slide">
         <p>A div element would be defined like this in an html document:</p>
-          <pre><code>
-&lt;div>This is a div&lt;/div>
-          </code></pre>
+        <code><pre>&lt;div>This is a div&lt;/div></pre></code>
         <p>And would render like this:</p>
-          <pre><code>This is a div
-          <code></pre>
+        <div>This is a div</div>
     </section>
 
     <section class="slide">
-      <h1>Lists</h1>
-      <img src="images/list.png" alt="list"/>
-      <p>To make a list in html, you'll need to use two different sets of tags.
-        Which tags you use will depend on what type of list you'd like to create.</p>
+        <h1>Lists</h1>
+        <img src="images/list.png" alt="list"/>
+        <p>
+            To make a list in html, you'll need to use two different sets of tags.
+            <br>
+            Which tags you use will depend on what type of list you'd like to create.
+        </p>
     </section>
 
     <section class="slide">
-      <h1>Ordered Lists</h1>
-      <p>To create an <strong>ordered</strong> (or numbered) list, you'll use ol tags
-        (ol stands for ordered list) with li tags nested inside.</p>
+        <h1>Ordered Lists</h1>
+        <p>
+            To create an <strong>ordered</strong> (or numbered) list, you'll use ol tags
+            <br>
+            (ol stands for ordered list) with li tags nested inside.
+        </p>
     </section>
-
-<section class="slide">
+    
+    <section class="slide">
       <p>An ordered, or numbered, list would be defined in an html document like this:</p>
         <code><pre>
 &lt;ol>
@@ -245,13 +248,11 @@
 &lt;/ol></pre>
         </code>
       <p>And would render like this:</p>
-      <pre><code>
         <ol>
-          <li>First element</li>
-          <li>Second element</li>
-          <li>Third element</li>
+            <li>First element</li>
+            <li>Second element</li>
+            <li>Third element</li>
         </ol>
-      </code></pre>
     </section>
 
     <section class="slide">
@@ -267,13 +268,11 @@
 &lt;/ul></pre>
           </code>
         <p>And would render like this:</p>
-        <pre><code>
-          <ul>
+        <ul>
             <li>First element</li>
             <li>Second element</li>
             <li>Third element</li>
-          </ul>
-        </code></pre>
+        </ul>
     </section>
 
     <section class="slide">
@@ -296,14 +295,14 @@
         <p>In an anchor element, the href attribute is used to define the destination of the link.
           The <strong>name</strong> of the attribute is href, and the <strong>value</strong> is the link.
           Clickable text will be contained between the opening and closing tags of the element.</p>
-        </section><section class="slide"><p>An anchor element is defined like this in an html document:</p>
-          <pre><code>
+        </section>
+
+    <section class="slide"><p>An anchor element is defined like this in an html document:</p>
+        <pre><code>
 &lt;a href="http://www.google.com">Google&lt;/a>
-          </code></pre>
+        </code></pre>
         <p>And would render like this:</p>
-          <pre><code>
-<a href="http://www.google.com">Google</a>
-          </code></pre>
+        <a href="http://www.google.com">Google</a>
     </section>
 
     <section class="slide">
@@ -312,11 +311,13 @@
         are not containers for content, and image elements have only one tag.</p>
       <p>Image elements contain several attributes, which allow for configuration.
         The <strong>src</strong> attribute tells the browser where to find the image that should be displayed.
-        The <strong>alt</strong> attribute specifies alternate text that describes the image.</p></section>
-<section class="slide">
+        The <strong>alt</strong> attribute specifies alternate text that describes the image.</p>
+    </section>
+
+    <section class="slide">
       <p>An image element is defined like this in an html document:</p>
         <pre><code>
-          &lt;img src="http://placecorgi.com/180" alt="a corgi" />
+&lt;img src="http://placecorgi.com/180" alt="a corgi" />
         </code></pre>
       <p>And would render like this:</p>
         <img src="http://placecorgi.com/180" alt="a corgi" />
@@ -451,15 +452,10 @@ body {
     <section class="slide">
         <h1>Font Size & Weight</h1>
         <img src="https://media.giphy.com/media/AwNGX4XvvODO8/giphy.gif"/>
-        <p>We've learned how to change the colors of our fonts, </br>but there are many other properties we can change!</p>
+        <p>We've learned how to change the colors of our fonts, but there are many other properties we can change!</p>
         <code><pre>
 h1 {
     font-size: 50px;
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 40px;
 }
 
 p {
@@ -776,8 +772,9 @@ h2 {
 <section class="slide">
     <h1>The Box Model</h1>
         <img src="images/box-model.png" alt="The CSS Box Model"/>
-        <h2 style="padding: 30px 0 30px 0; border: solid 5px black; margin: 50px;">Content Here</h2>
-
+</section>
+<section class="slide">
+    <h2 style="padding: 30px 0 30px 0; border: solid 5px black; margin: 50px;">Content Here</h2>
 <code>
 <pre>
 h2 {

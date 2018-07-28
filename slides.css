@@ -19,6 +19,7 @@ h2 {
 p {
     font-size: 25px;
     text-align: left;
+    padding: 0 30px;
 }
 
 a {
@@ -55,7 +56,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 0 40px;
 }
 
 pre {
@@ -79,10 +79,4 @@ pre {
     opacity: 0;
 }
 
-.slide-deck-scaler {
-    display: flex;
-    flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 100%;
-}
+
