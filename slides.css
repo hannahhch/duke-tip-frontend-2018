@@ -71,3 +71,7 @@ pre {
     height: 300px;
     width: 400px;
 }
+
+.disappear:hover {
+    opacity: 0;
+}

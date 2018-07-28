@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
 }
 
 header, 
 footer {
-    background-color: #833471;
+    background-color:#D375B0;
     color: white;
 }
 
@@ -18,7 +19,6 @@ footer {
 nav {
     padding: 20px;
 }
-
 
 nav a {
     margin-right: 20px;
@@ -52,7 +52,7 @@ p {
 section {
     padding: 25px 100px;
     margin: 0 40px;
-    background-color: rgba(131, 52, 113, .2);
+    background-color: white;
 }
 
 img {
@@ -60,7 +60,7 @@ img {
     display: inline-block;
     margin: 0 auto;
     margin-right: 15px;
-    border: solid 3px #833471;
+    border: solid 3px #D375B0;
     border-radius: 50%;
 }
 

@@ -434,6 +434,31 @@ section {
         <p>See if you can make your own gradient!</p>
 </section>
 
+<section class="slide">
+    <h1>Order Matters!</h1>
+<p>This is selecting all of the &lt;a> tags inside the &lt;nav></p>
+<p>All other &lt;a> tags will not have the added margin!</p>
+<code>
+<pre>
+nav a {
+    margin-right: 20px;
+}</pre>
+</code>
+</section>
+
+<section class='slide'>
+    <h1>Selecting Multiple Elements</h1>
+    <img src="https://media.giphy.com/media/9iNtg6v05EH28/giphy.gif"/>
+    <p>By separating elements with a comma, we can target them both</p>
+    <p>Everything with the class of main-header and all of the H1's will be blue</p>
+    <code>
+<pre>
+.main-header, h1 {
+    color: blue;
+}</pre>
+
+    </code>
+</section>
 
 <section class="slide">
     <h1 style="border: purple 3px solid;">Border and Repetition</h1>
@@ -463,6 +488,33 @@ section {
     border-left: purple 3px solid;
     border-right: yellow 3px solid; 
  }</pre>
+    </code>
+</section>
+
+<section class="slide">
+    <h1>Border Radius</h1>
+    <h2>Gives us rounded or completely round edges</h2>
+    <div style='display: inline-block;  height: 200px; width: 200px; border: solid 5px orange; border-radius: 10%'></div>
+    <code>
+    <pre>
+div {
+    height: 200px; 
+    width: 200px; 
+    border: solid 5px orange; 
+    border-radius: 10%
+}</pre>
+
+    </code>
+    <div style='display: inline-block; height: 200px; width: 200px; border: solid 5px orange; border-radius: 50%'></div>
+    <code>
+    <pre>
+div {
+    height: 200px; 
+    width: 200px; 
+    border: solid 5px orange; 
+    border-radius: 50%
+}</pre>
+
     </code>
 </section>
 
@@ -498,11 +550,42 @@ h2 {
 
 <section class="slide">
     <h2>Let's practice following the box model</h2>
+    <img src="https://media.giphy.com/media/1ecRID74uAe5i/giphy.gif"/>
     <p>Add some borders</p>
     <p>Give padding or margin to at least one of your sections</p>
 </section>
 
-<!-- nesting, hovers, border radius -->
+
+<section class='slide'>
+    <h1>Pseudo Selectors: Hover</h1>
+    <img class="disappear" src="https://media.giphy.com/media/NvcAPYyz1307S/giphy.gif"/>
+    <h2>Allows us to make a change when the user hovers on an element</h2>
+</section>
+
+<section class="slide">
+    <code>
+<pre>
+.disappear:hover {
+    opacity: 0;
+}</pre>
+</code>
+<h2>We can trigger a hover effect on many CSS properties</h2>
+<h2>Here's a <a target="_blanks"href="http://leaverou.github.io/animatable/">list</a> of some popular ones</h2>
+</section>
+
+<section class="slide">
+    <h2>Let's practice! Add a hover effect to your website. Here are some ideas:</h2>
+    <ul>
+        <li>Change your link color or add/remove an underline</li>
+        <li>Decrease the opacity</li>
+        <li>Make something bolder</li>
+        <li>Add borders</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <img src="images/js.jpeg"/>
+</section>
 
     <section class="slide">
         <h1>Resources</h1>
