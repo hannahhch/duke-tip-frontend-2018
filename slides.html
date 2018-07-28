@@ -66,11 +66,6 @@
     </section>
 
     <section class="slide">
-        <h1>What is a website anyway?</h1>
-        <p>(Maria's content here)</p>
-    </section>
-
-    <section class="slide">
       <h1>Front End</h1>
       <img src="images/frontend.png" alt="front end image"/>
     </section>
@@ -141,14 +136,13 @@
     <section class="slide">
       <p>HTML (Hyper Text Markup Language) documents all have the same basic structure:</p>
       <code><pre>
-        &lt;!DOCTYPE html>
-        &lt;html>
-          &lt;head>
-          &lt;/head>
-          &lt;body>
-          &lt;/body>
-        &lt;/html>
-      </pre></code>
+&lt;!DOCTYPE html>
+  &lt;html>
+      &lt;head>
+      &lt;/head>
+    &lt;body>
+    &lt;/body>
+  &lt;/html></pre></code>
       <p>The <strong>head</strong> contains metadata, which isn't displayed on the page.
          This includes the title of the page (defined within title tags),
          which is displayed on the page's tab.</p>
@@ -170,13 +164,13 @@
       <h1>HTML Tags</h1>
       <p>HTML tags help to define elements.</p>
       <p>A set of HTML tags looks like this:</p>
-      <code><pre>
-        &lt;p>&lt;/p>
-      </pre></code>
+      <code>
+<pre>
+&lt;p>&lt;/p></pre></code>
       <p>An HTML element looks like this:</p>
-      <code><pre>
-        &lt;p>This is a paragraph.&lt;/p>
-      </pre></code>
+      <code>
+<pre>
+&lt;p>This is a paragraph.&lt;/p></pre></code>
     </section>
 
     <section class="slide">
@@ -184,23 +178,28 @@
         <p><strong>Heading</strong> tags define section headings.</p>
         <p><strong>h1</strong> is the highest, and largest, section level, and should only be used once on a page.</p>
         <p><strong>h6</strong> is the lowest, and smallest, section level. Headings require an opening and closing tag.</p>
+        <p>Heading elements have predefined whitespace, font style and size, and paragraph breaks.</p>
+    </section>
+    <section class="slide">
         <p>A heading element would be defined like this in an html document:</p>
-          <pre><code>
-            &lt;h1>This is my first heading&lt;/h1>
-          </code></pre>
+          <code>
+<pre>
+&lt;h1>This is my first heading&lt;/h1></pre>
+</code>
         <p>And would render like this:</p>
           <pre><code>
             <h1>This is my first heading</h1>
           </code></pre>
-        <p>Heading elements have predefined whitespace, font style and size, and paragraph breaks.</p>
     </section>
 
     <section class="slide">
       <h1>Paragraph Tags</h1>
         <p><strong>Paragraph</strong> tags define blocks of text and have space before and after them.</p>
+    </section>
+    <section class="slide">
         <p>A paragraph element would be defined like this in an html document:</p>
           <pre><code>
-            &lt;p>This is my first paragraph.&lt;/p>
+&lt;p>This is my first paragraph.&lt;/p>
           </code></pre>
         <p>And would render like this:</p>
           <pre><code>
@@ -212,14 +211,14 @@
     <section class="slide">
       <h1>Div Tags</h1>
         <p><strong>Div</strong> tags define a section of an HTML document,
-          and are often used to add JavaScript or as containers for CSS styling.</p>
+          and are often used to add JavaScript or as containers for CSS styling.</p></section>
+        <section class="slide">
         <p>A div element would be defined like this in an html document:</p>
           <pre><code>
-            &lt;div>This is a div&lt;/div>
+&lt;div>This is a div&lt;/div>
           </code></pre>
         <p>And would render like this:</p>
-          <pre><code>
-            This is a div
+          <pre><code>This is a div
           <code></pre>
     </section>
 
@@ -234,14 +233,17 @@
       <h1>Ordered Lists</h1>
       <p>To create an <strong>ordered</strong> (or numbered) list, you'll use ol tags
         (ol stands for ordered list) with li tags nested inside.</p>
+    </section>
+
+<section class="slide">
       <p>An ordered, or numbered, list would be defined in an html document like this:</p>
-        <pre><code>
-          &lt;ol>
-            &lt;li>First element&lt;/li>
-            &lt;li>Second element&lt;/li>
-            &lt;li>Third element&lt;/li>
-          &lt;/ol>
-        </code></pre>
+        <code><pre>
+&lt;ol>
+    &lt;li>First element&lt;/li>
+    &lt;li>Second element&lt;/li>
+    &lt;li>Third element&lt;/li>
+&lt;/ol></pre>
+        </code>
       <p>And would render like this:</p>
       <pre><code>
         <ol>
@@ -255,15 +257,15 @@
     <section class="slide">
       <h1>Unordered Lists</h1>
         <p>To create an <strong>unordered</strong> (or bulleted) list, you'll use ul tags
-           (ul stands for unordered list) with li tags nested inside.</p>
+           (ul stands for unordered list) with li tags nested inside.</p></section><section class="slide">
         <p>An unordered, or bulleted, list would be defined in an html document like this:</p>
-          <pre><code>
-            &lt;ul>
-              &lt;li>First element&lt;/li>
-              &lt;li>Second element&lt;/li>
-              &lt;li>Third element&lt;/li>
-            &lt;/ul>
-          </code></pre>
+<code><pre>
+&lt;ul>
+    &lt;li>First element&lt;/li>
+    &lt;li>Second element&lt;/li>
+    &lt;li>Third element&lt;/li>
+&lt;/ul></pre>
+          </code>
         <p>And would render like this:</p>
         <pre><code>
           <ul>
@@ -286,16 +288,21 @@
         <p>The <strong>anchor</strong> tag allows you to create links on your page.
           In this element, you'll include an <strong>attribute</strong> telling the browser where to link to.
           The attribute is included in the opening tag and includes a <strong>name</strong> and a <strong>value</strong>.</p>
+        </section>
+
+<section class="slide">
+
+
         <p>In an anchor element, the href attribute is used to define the destination of the link.
           The <strong>name</strong> of the attribute is href, and the <strong>value</strong> is the link.
           Clickable text will be contained between the opening and closing tags of the element.</p>
-        <p>An anchor element is defined like this in an html document:</p>
+        </section><section class="slide"><p>An anchor element is defined like this in an html document:</p>
           <pre><code>
-            &lt;a href="http://www.google.com">Google&lt;/a>
+&lt;a href="http://www.google.com">Google&lt;/a>
           </code></pre>
         <p>And would render like this:</p>
           <pre><code>
-            <a href="http://www.google.com">Google</a>
+<a href="http://www.google.com">Google</a>
           </code></pre>
     </section>
 
@@ -305,7 +312,8 @@
         are not containers for content, and image elements have only one tag.</p>
       <p>Image elements contain several attributes, which allow for configuration.
         The <strong>src</strong> attribute tells the browser where to find the image that should be displayed.
-        The <strong>alt</strong> attribute specifies alternate text that describes the image.</p>
+        The <strong>alt</strong> attribute specifies alternate text that describes the image.</p></section>
+<section class="slide">
       <p>An image element is defined like this in an html document:</p>
         <pre><code>
           &lt;img src="http://placecorgi.com/180" alt="a corgi" />

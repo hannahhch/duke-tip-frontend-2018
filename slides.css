@@ -17,13 +17,13 @@ h2 {
 }
 
 p {
-    font-size: 35px;
+    font-size: 25px;
     text-align: left;
 }
 
 a {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 img {
@@ -39,7 +39,7 @@ a {
 
 li {
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 40px;
     text-align: left;
     color: #fd79a8;
@@ -54,14 +54,17 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    margin: 0 40px;
 }
 
 pre {
     text-align: left;
     color: black;
     background-color: white;
-    font-size: 30px;
+    font-size: 25px;
     padding: 20px;
+    display: inline-block;
 }
 
 
@@ -74,4 +77,12 @@ pre {
 
 .disappear:hover {
     opacity: 0;
+}
+
+.slide-deck-scaler {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
 }
